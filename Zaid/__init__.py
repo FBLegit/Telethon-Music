@@ -16,7 +16,7 @@ from Config import Config
 BOT_USERNAME = Config.BOT_USERNAME
 ASSISTANT_ID = Config.ASSISTANT_ID
 
-bot = TelegramClient('Legit', api_id=Config.API_ID, api_hash=Config.API_HASH)
+bot = TelegramClient('Zaid', api_id=Config.API_ID, api_hash=Config.API_HASH)
 Zaid = bot.start(bot_token=Config.BOT_TOKEN)
 client = TelegramClient(StringSession(Config.STRING_SESSION), Config.API_ID, Config.API_HASH)
 call_py = PyTgCalls(client)
